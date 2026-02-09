@@ -1,0 +1,15 @@
+{
+  "name": "ggshop-frontend",
+  "version": "1.0.0",
+  "description": "Frontend pour GG.Shop - Site e-commerce de paris esportifs",
+  "scripts": {
+    "build:css": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
+    "build": "tailwindcss -i ./src/input.css -o ./dist/output.css --minify"
+  },
+  "keywords": ["tailwind", "esports", "betting"],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.3.0"
+  }
+}
